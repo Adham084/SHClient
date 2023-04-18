@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+	xmlns:local="clr-namespace:SHClient"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="SHClient.AppShell"
+	Shell.FlyoutBehavior="Disabled">
+
+	<TabBar>
+		<Tab Title="Home">
+			<ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+		</Tab>
+		<Tab Title="Settings">
+			<ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+		</Tab>
+	</TabBar>
+
+</Shell>

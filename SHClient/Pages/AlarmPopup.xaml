@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mopups:PopupPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
+             x:Class="SHClient.AlarmPopup" CloseWhenBackgroundIsClicked="False"
+             BackgroundColor="#80000000">
+
+    <Frame CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <VerticalStackLayout Spacing="10" VerticalOptions="Center">
+            <Label Text="Fire Alarm!" FontSize="18" HorizontalOptions="Center"/>
+            <Label Text="A fire is detected in the home! Temperature is very high." HorizontalOptions="Center"/>
+            <Button Text="Dismiss" Clicked="Dismiss"/>
+        </VerticalStackLayout>
+    </Frame>
+</Mopups:PopupPage>

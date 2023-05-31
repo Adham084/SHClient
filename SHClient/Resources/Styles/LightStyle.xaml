@@ -362,10 +362,10 @@
         <Setter Property="Shell.DisabledColor" Value="{StaticResource Gray200}" />
         <Setter Property="Shell.UnselectedColor" Value="{StaticResource Gray200}" />
         <Setter Property="Shell.NavBarHasShadow" Value="False" />
-        <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource White}" />
-        <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource Primary}" />
-        <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource Primary}" />
-        <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource Gray900}" />
+        <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" />
+        <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource White}" />
+        <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource White}" />
+        <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource Black}" />
     </Style>
 
     <Style TargetType="NavigationPage">
